@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LetsUpgrade JavaScript Essential Day-4 Assignment-8</title>
+  </head>
+  <body>
+    <h2>
+      Replace Function Expression with arrow functions in the code below:
+    </h2>
+    <p>
+      function ask(question, yes, no) {<br />
+      &emsp;if(confirm(question)) yes() <br />
+      &emsp;else no(); <br />
+      }
+      <br />
+      <br />
+      ask( <br />
+      &emsp;"Do you agree?",<br />
+      &emsp;function() { alert("You agreed."); },<br />
+      &emsp;function() { alert("You canceled the execution."); } <br />
+      );
+    </p>
+    <hr />
+    <p>
+      Check the console.
+      <strong>(Press F12 and go to console tab)</strong>
+    </p>
+    <script src="assignment8.js"></script>
+  </body>
+</html>
