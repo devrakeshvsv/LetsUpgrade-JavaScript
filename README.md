@@ -5,13 +5,13 @@ Basic Template for node projects
 # Project Structure
 
 ```
-  ├── app			               # App content
-  │   ├── models           	   # All collection schemas
-  │   ├── routes           	   # All routes
-  │   ├── services           	   # All function modules
-  │   ├── utils            	   # all helper tools
-  ├── docs                       # Documentation files
-  │   ├── api_collection         # dump of latest postman collection
+	├── app			               # App content
+	│   ├── models           	   # All collection schemas
+	│   ├── routes           	   # All routes
+	│   ├── services           	   # All function modules
+	│   ├── utils            	   # all helper tools
+	├── docs                       # Documentation files
+	│   ├── api_collection         # dump of latest postman collection
 	│   ├── flow_diagrams          # All flow diagrams of modules schemas
 	├── scripts                    # all bash scripts
 	├── config                     # all config variables are stored here
